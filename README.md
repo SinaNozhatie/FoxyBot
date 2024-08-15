@@ -36,7 +36,7 @@ Hidy Bot is a Telegram bot that allows you to manage your Hiddify panel directly
 To install the bot, run the following command:
 
 ```bash
-sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/B3H1Z/Hiddify-Telegram-Bot/main/install.sh)"
+sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/SinaNozhatie/FoxyBot/main/install.sh)"
 ```
 <br>
 
@@ -60,7 +60,7 @@ Now you can use the bot in Telegram by sending the `/start` command.
 ## Commands
 - ### Update bot
 ```bash
-cd /opt/Hiddify-Telegram-Bot/ && curl -fsSL -o /opt/Hiddify-Telegram-Bot/update.sh https://raw.githubusercontent.com/B3H1Z/Hiddify-Telegram-Bot/main/update.sh && chmod +x /opt/Hiddify-Telegram-Bot/update.sh && bash /opt/Hiddify-Telegram-Bot/update.sh
+cd /opt/Hiddify-Telegram-Bot/ && curl -fsSL -o /opt/Hiddify-Telegram-Bot/update.sh https://raw.githubusercontent.com/SinaNozhatie/FoxyBot/main/update.sh && chmod +x /opt/Hiddify-Telegram-Bot/update.sh && bash /opt/Hiddify-Telegram-Bot/update.sh
 ```
 - ### Restart bot
 ```bash
@@ -80,7 +80,7 @@ cd /opt/Hiddify-Telegram-Bot/ && python3 config.py && chmod +x restart.sh && ./r
 ```
 - ### Reinstall bot
 ```bash
-cd /opt/ && rm -rf /opt/Hiddify-Telegram-Bot/ && sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/B3H1Z/Hiddify-Telegram-Bot/main/install.sh)"
+cd /opt/ && rm -rf /opt/Hiddify-Telegram-Bot/ && sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/SinaNozhatie/FoxyBot/main/install.sh)"
 ```
 - ### Uninstall bot
 ```bash
