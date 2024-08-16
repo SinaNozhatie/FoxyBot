@@ -66,7 +66,7 @@ def owner_info_template(card_number, card_holder_name, price, header=""):
 💰لطفا دقیقا مبلغ: <code>{price}</code> {MESSAGES['RIAL']}
 💴معادل: {rial_to_toman(price)} {MESSAGES['TOMAN']}
 🌐را از طریق لینک زیر:
-💳درگاه پرداخت:<b>{card_holder_name}</b>
+💳به آدرس:<b>{card_holder_name}</b> واریز کنید.
 
 ❗️بعد از واریز مبلغ، اسکرین شات از تراکنش را برای ما ارسال کنید.
 """
